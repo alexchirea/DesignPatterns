@@ -1,6 +1,6 @@
 package creationalPatterns.builder;
 
-public class Customer {
+public class Example {
 
     public static void main(String[] args) {
         Baker baker = new Baker();
