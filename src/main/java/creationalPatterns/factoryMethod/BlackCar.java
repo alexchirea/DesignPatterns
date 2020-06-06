@@ -1,4 +1,10 @@
 package creationalPatterns.factoryMethod;
 
-public class BlackCar {
+public class BlackCar extends Car {
+
+    @Override
+    void setColor() {
+        color = "black";
+    }
+
 }
