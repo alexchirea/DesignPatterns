@@ -10,6 +10,10 @@ abstract public class Car {
 
     abstract void setColor();
 
+    public String getColor() {
+        return color;
+    }
+
     @Override
     public String toString() {
         return "The car is " + color;
